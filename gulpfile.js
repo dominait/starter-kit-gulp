@@ -7,7 +7,7 @@ var buildDirecotry = [
   'src/css/**/*.*',
   'src/img/**/*.*',
   'src/js/**/*.*',
-  'scr/fonts/**/*.*'
+  'src/fonts/**/*.*'
 ];
 
 
