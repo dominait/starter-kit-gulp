@@ -1,6 +1,5 @@
 # directories #
-dist/
-.vscode
+
 
 # Ignore node modules directry #
 node_modules/
