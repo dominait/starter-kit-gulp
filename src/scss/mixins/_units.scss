@@ -1,0 +1,18 @@
+/*!
+ * Mixin returns font size in varius units.
+ * Parameters
+ * $size - font size to be converted in px.
+ * $context - the context size of the font in px.
+ * $base - rem base font size.
+ */
+ 
+ @mixin units($size, $context, $base){
+    $px:$size + 0px;
+    $rem: ($size / $base) + 0rem;
+    $em: ($size / $context) + 0em;
+
+   font-size: $px;
+   font-size: $rem;
+   font-size: $em;
+
+}

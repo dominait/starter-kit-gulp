@@ -1,6 +1,60 @@
-@import "vars/index";
-@import "functions/index";
-@import "mixins/index";
-@import "init/index";
-@import "typography/index";
-@import "ui/index"
+@import "reboot/reboot";
+@import "typography/base";
+ 
+
+html {
+  height: 100%;
+}
+
+body {
+  color: $text-color;
+  font-size: $base-font-size;
+  font-family: $product;
+  font-weight: $base-font-weight;
+  line-height: 1.5;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ 
+}
+ 
+ 
+.page-header {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #7f7f7f;
+  width:50%;
+ 
+}
+.magoolys-branding {
+ 
+  margin-right:2rem;
+  img{
+     width:240px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    line-height: 1;
+  }
+  span {
+    font-size:10px;
+    display:block;
+  }
+}
+.kit-description{
+  text-align: left;;
+  margin-top:2rem;
+ 
+   h2{
+     font-size: 2.7rem;
+     line-height: 0.75;
+   }
+   p{
+     font-size:14px;
+   
+   }
+}

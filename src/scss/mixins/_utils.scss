@@ -1,3 +1,19 @@
+/*!
+ * Mixin returns font size in varius units.
+ * push--auto used with flexbox to mimic float left or float right.
+ * pseudo -- ceate a psudo element.
+ * responsive-ratio - returns a media query based on the parameters recieved.
+ * font-source-sans - created typographical setup for base font.
+ * 
+ */
+ 
+ @mixin push--auto {
+    margin: {
+        left: auto;
+        right: auto;
+    }
+}
+
 @mixin pseudo($display: block, $pos: absolute, $content: '') {
     content: $content;
     display: $display;
@@ -85,16 +101,7 @@ $breakpoints: ("phone": 400px,
     }
 }
 
-/* 
-.site-header {
-    padding: 2rem;
-    font-size: 1.8rem;
-    @include mq('tablet-wide') {
-        padding-top: 4rem;
-        font-size: 2.4rem;
-    }
-}
-*/
+ 
 
 @function z($name) {
     @if index($z-indexes, $name) {
