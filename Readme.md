@@ -1,6 +1,6 @@
-# Static Web Site Starter Kit
+# Static Site Starter Kit
 
-This repo contains a simple starting kit that will help you to develop static web sites. You can view the kit landing page [on netlify](https://starter-kit-scss.netlify.com/).
+This repo contains a static site build kit that you can customize and tailor to your needs. The kit is optimized for production and even though image optimization is built into the build template it is highly recommended that you use software as a service to host all media assets.You can view the source files [here](https://starter-kit-scss.netlify.com/).
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7f0d163a-638c-4fd8-b47d-a6adfb35d23f/deploy-status)](https://app.netlify.com/sites/starter-kit-scss/deploys)
 

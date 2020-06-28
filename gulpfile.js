@@ -1,13 +1,13 @@
-const { src, dest, watch, task } = require('gulp')
+const { src, dest, watch, task, series } = require('gulp')
+var del = require('del');
 
-
-//build directory
-
+//add any other folders from your src directory that you want to appear in the dist directory
 var buildDirecotry = [
   'src/index.html',
   'src/css/**/*.*',
   'src/img/**/*.*',
-  'src/js/**/*.*'
+  'src/js/**/*.*',
+  'scr/fonts/**/*.*'
 ];
 
 
@@ -21,7 +21,13 @@ task('deploy', function () {
     .pipe(dest('dist'));
 });
 
+task('cleanup', function () {
+  return del( 'dist')
+   
+});
+
 
 
 exports.netlifybuild = task('netlifybuild');
 exports.deploy = task('deploy');
+exports.cleanup = series('cleanup', 'deploy')
