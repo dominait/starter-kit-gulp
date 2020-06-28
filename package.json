@@ -1,5 +1,5 @@
 {
-  "name": "kelvinbridge",
+  "name": "starter-kit-gulp",
   "version": "1.0.0",
   "description": "A simple workflow for building modern static websites. Automated build processes using gulp.js, a local development server, production minification and optimizations, and the latest standards for static websites.",
   "main": "gulpfile.js",
@@ -8,22 +8,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dominait/kelvinbridge.git"
+    "url": "git+https://github.com/dominait/starter-kit-gulp.git"
   },
   "keywords": [
     "html5",
     "framwork",
     "static",
-    "site"
+    "site",
+    "gulp"
   ],
   "author": "James Foley",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dominait/kelvinbridge/issues"
+    "url": "https://github.com/dominait/starter-kit-gulp/issues"
   },
-  "homepage": "https://github.com/dominait/kelvinbridge#readme",
+  "homepage": "https://github.com/dominait/starter-kit-gulp#readme",
   "dependencies": {},
   "devDependencies": {
-    "gulp": "^4.0.0"
+    "gulp": "^4.0.2"
   }
 }
