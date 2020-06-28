@@ -1,5 +1,5 @@
 # directories #
-dist
+dist/
 
 # Ignore node modules directry #
 node_modules/
