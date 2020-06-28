@@ -1,7 +1,8 @@
 {
   
     "liveSassCompile.settings.formats":[
-              // You can add more
+              // You may have to edit the  savePath property to 
+              // match your build path.
         {
             "format": "compressed",
             "extensionName": ".min.css",
