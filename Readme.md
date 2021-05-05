@@ -11,7 +11,7 @@ This repo contains a static site build kit that you can customize and tailor to 
 
 If your using VSCode as your editor then we suggest you download and install the [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass) extension. To learn how to configure this extension take a look at the documentation on the github site in [settings](https://github.com/ritwickdey/vscode-live-sass-compiler/blob/master/docs/settings.md)
 
-This kit uses SCSS as a preprocessor for your CSS so need to be comfortable using SCSS. If your not familure with using SCSS a good place to start is [Learning SCSS Basics](https://sass-lang.com/guide).
+This kit uses SCSS as a preprocessor for your CSS so you will need to be comfortable using SCSS. If your not familure with using SCSS a good place to start is [Learning SCSS Basics](https://sass-lang.com/guide).
 
 <br>
 <br>
