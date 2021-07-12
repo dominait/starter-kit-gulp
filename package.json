@@ -26,9 +26,10 @@
   "devDependencies": {
     "del": "^5.1.0",
     "glob-parent": ">=5.1.2",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-rimraf": "^1.0.0",
     "hosted-git-info": ">=2.8.9",
-    "lodash": ">=4.17.21"
+    "lodash": ">=4.17.21",
+    "lodash.template": ">=4.5.0"
   }
 }
