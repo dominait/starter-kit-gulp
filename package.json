@@ -28,6 +28,7 @@
     "glob-parent": ">=5.1.2",
     "gulp": "^3.9.1",
     "gulp-rimraf": "^1.0.0",
-    "hosted-git-info": ">=2.8.9"
+    "hosted-git-info": ">=2.8.9",
+    "lodash": ">=4.17.21"
   }
 }
