@@ -23,10 +23,11 @@
     "url": "https://github.com/dominait/starter-kit-gulp/issues"
   },
   "homepage": "https://github.com/dominait/starter-kit-gulp#readme",
-  "dependencies": {},
   "devDependencies": {
     "del": "^5.1.0",
-    "gulp": "^4.0.2",
-    "gulp-rimraf": "^1.0.0"
+    "glob-parent": ">=5.1.2",
+    "gulp": "^3.9.1",
+    "gulp-rimraf": "^1.0.0",
+    "hosted-git-info": ">=2.8.9"
   }
 }
